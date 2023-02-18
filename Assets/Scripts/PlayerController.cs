@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     private bool isRunning;
     private Vector2 input;
 
+    public LayerMask solidObjectsLayer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,17 +24,13 @@ public class PlayerController : MonoBehaviour
         {
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
-            
-            if (input.x != 0){
-                input.y = 0;
-            }
              
             if(input != Vector2.zero){
                 var targetPos = transform.position;
                 targetPos.x += input.x;
                 targetPos.y += input.y;
-
-                StartCoroutine(Move(targetPos));
+                if (!hasCollision(targetPos))
+                    StartCoroutine(Move(targetPos));
             }
         }
         
@@ -50,5 +48,12 @@ public class PlayerController : MonoBehaviour
         transform.position = targetPos;
 
         isMoving = false;
+    }
+
+    private bool hasCollision( Vector3 targetPos){
+        if(Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer) != null){
+            return true;
+        }
+        return false;
     }
 }
