@@ -369,7 +369,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hola putto
+  m_Text: Prueba
 --- !u!222 &578353035
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1170,7 +1170,9 @@ MonoBehaviour:
   interactableLayer:
     serializedVersion: 2
     m_Bits: 128
-  speed: 2
+  speed: 1.5
+  runFactor: 2.6
+  stealthFactor: 2.6
 --- !u!50 &2082183843
 Rigidbody2D:
   serializedVersion: 4
@@ -1455,7 +1457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - Hola bb
+    - Holas
     - frase 2
 --- !u!1 &2143766863
 GameObject:

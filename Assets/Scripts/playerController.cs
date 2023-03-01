@@ -9,6 +9,13 @@ public class playerController : MonoBehaviour
     public LayerMask interactableLayer;
     [SerializeField]
     private float speed;
+    [SerializeField]
+    private float runFactor;
+    [SerializeField]
+    private float stealthFactor;
+    private bool isRunning;
+    private bool isStealth;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +26,26 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     public void HandleUpdate()
     {
+        
+
         myRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed;
+
+        //Stealth mode try
+        if (Input.GetKeyDown(KeyCode.LeftControl)) {
+            isStealth = !isStealth;
+            isRunning = false;
+        }
+
+        //Run mode try
+        else if (Input.GetKeyDown(KeyCode.LeftShift) || isRunning == true) {
+            myRB.velocity = myRB.velocity * runFactor;
+            isRunning = true;
+        }
+
+        //Exit stealth mode
+        if (isStealth == true) {
+            myRB.velocity = myRB.velocity / stealthFactor;
+        }
 
         myAnim.SetFloat("moveX", myRB.velocity.x);
         myAnim.SetFloat("moveY", myRB.velocity.y);
@@ -34,7 +60,10 @@ public class playerController : MonoBehaviour
             Interact();
         }
             
-
+        //Exit running mode
+        if (Input.GetKeyUp(KeyCode.LeftShift)) {
+            isRunning = false;
+        }
 
     }
 
@@ -46,7 +75,7 @@ public class playerController : MonoBehaviour
         
         if(collider != null)
         {
-            collider.GetComponent<InteractableNPC>()?.Interact();
+            collider.GetComponent<Interactable>()?.Interact();
         }
     }
 }
