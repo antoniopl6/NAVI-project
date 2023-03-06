@@ -15,6 +15,7 @@ public class playerController : MonoBehaviour
     private float stealthFactor;
     private bool isRunning;
     private bool isStealth;
+    private bool isDealt;
 
     // Start is called before the first frame update
     void Start()
