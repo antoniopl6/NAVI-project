@@ -16,10 +16,15 @@ public class Dialog
     }
 
     [SerializeField] List<string> lines;
+    [SerializeField] List<bool> isMainCharTalking;
     [SerializeField] List<choice_t> choices;
 
     public List<string> Lines {
         get { return lines; }
+    }
+
+    public List<bool> IsMainChar {
+        get { return isMainCharTalking; }
     }
 
     public List<choice_t> Choices {

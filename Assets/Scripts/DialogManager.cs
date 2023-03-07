@@ -9,7 +9,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] GameObject dialogBox;
     [SerializeField] Text dialogText;
     [SerializeField] Text optionsText;
-
+    [SerializeField] Text characterText;
     [SerializeField] int lettersForSecond;
 
     public event Action OnShowDialog;
@@ -18,6 +18,7 @@ public class DialogManager : MonoBehaviour
     public static DialogManager Instance { get; private set;}
 
     Dialog dialog;
+    string nameNPC;
     int currentLine = 0;
     int currentOption = 0;
     bool isInOptionState;
@@ -47,7 +48,7 @@ public class DialogManager : MonoBehaviour
                 ++currentLine;
                 if(currentLine < dialog.Lines.Count)
                 {
-                    StartCoroutine(TypeDialog(dialog.Lines[currentLine]));
+                    StartCoroutine(TypeDialog(dialog.Lines[currentLine], dialog.IsMainChar[currentLine]));
                 }
                 else
                 {
@@ -68,7 +69,7 @@ public class DialogManager : MonoBehaviour
                 ++currentLine;
                 if(currentLine < dialog.Lines.Count)
                 {
-                    StartCoroutine(TypeDialog(dialog.Lines[currentLine]));
+                    StartCoroutine(TypeDialog(dialog.Lines[currentLine], dialog.IsMainChar[currentLine]));
                 }
                 else
                 {
@@ -85,21 +86,31 @@ public class DialogManager : MonoBehaviour
         Instance = this;
     }
 
-    public IEnumerator ShowDialog(Dialog dialog)
+    public IEnumerator ShowDialog(Dialog dialog, string nameNPC)
     {
         yield return new WaitForEndOfFrame();
         OnShowDialog?.Invoke();
 
         this.dialog = dialog;
+        this.nameNPC = nameNPC;
         dialogBox.SetActive(true);
         optionsText.text = "";
-        StartCoroutine(TypeDialog(dialog.Lines[0]));
+        characterText.text = "";
+        StartCoroutine(TypeDialog(dialog.Lines[0], dialog.IsMainChar[0]));
     }
 
-    public IEnumerator TypeDialog(string line)
+    public IEnumerator TypeDialog(string line, bool isMainChar)
     {
         isTyping = true;
         dialogText.text = "";
+        if (isMainChar) {
+            characterText.alignment = TextAnchor.UpperRight;
+            characterText.text = "Robert Olmstead";
+        }
+        else {
+            characterText.alignment = TextAnchor.UpperLeft;
+            characterText.text = nameNPC;
+        }
         foreach (var letter in line.ToCharArray())
         {
             dialogText.text += letter;
@@ -122,7 +133,7 @@ public class DialogManager : MonoBehaviour
                 optionsText.text += "> " + choice + "\n";
             }
             else {
-                optionsText.text += choice + "\n";
+                optionsText.text += "  " + choice + "\n";
             } 
             ++loop;
         }
