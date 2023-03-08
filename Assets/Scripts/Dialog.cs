@@ -15,9 +15,9 @@ public class Dialog
         [SerializeField] public int numLine;
     }
 
-    [SerializeField] List<string> lines;
-    [SerializeField] List<bool> isMainCharTalking;
-    [SerializeField] List<choice_t> choices;
+    [SerializeField] public List<string> lines;
+    [SerializeField] public List<bool> isMainCharTalking;
+    [SerializeField] public List<choice_t> choices = new List<choice_t>();
 
     public List<string> Lines {
         get { return lines; }

@@ -9,6 +9,7 @@ public class playerController : MonoBehaviour
     private Animator myAnim;
     public LayerMask interactableLayer;
     public LayerMask doorsLayer;
+    public LayerMask colectableLayer;
     [SerializeField]
     private float speed;
     [SerializeField]
@@ -79,10 +80,22 @@ public class playerController : MonoBehaviour
         var interactPos = transform.position + facingDir;
         var collider = Physics2D.OverlapCircle(interactPos, 0.2f, interactableLayer);
         var colliderDoor = Physics2D.OverlapCircle(interactPos, 0.2f, doorsLayer);
-        
+        var colliderColectable = Physics2D.OverlapCircle(interactPos, 0.2f, colectableLayer);
         if(colliderDoor != null)
-        {            
+        {
             colliderDoor.GetComponent<Interactable>()?.Interact();
+        }
+        if(colliderColectable != null)
+        {            
+            string name = colliderColectable.GetComponent<ColectableController>()?.nameColectable;
+            Dialog dialog = new Dialog();
+            string phrase = "Has obtenido " + name;
+            dialog.lines = new List<string>();
+            dialog.lines.Add(phrase);
+            dialog.isMainCharTalking = new List<bool>();
+            dialog.isMainCharTalking.Add(false);
+            StartCoroutine(DialogManager.Instance.ShowDialog(dialog, ""));
+            colliderColectable.GetComponent<Interactable>()?.Interact();
         }
         if(collider != null)
         {
