@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
-    private Rigidbody2D myRB;
+    public Rigidbody2D myRB;
     private Animator myAnim;
     public LayerMask interactableLayer;
     public LayerMask doorsLayer;
     public LayerMask colectableLayer;
     [SerializeField]
     private float speed;
+    private float prSpeed;
     [SerializeField]
     private float runFactor;
     [SerializeField]
@@ -21,6 +22,7 @@ public class playerController : MonoBehaviour
     private bool isDealt;
     private Vector2 newPos;
     private string newScene;
+    private bool isInText = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +33,7 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     public void HandleUpdate()
     {
-        
+        if(!isInText){
         
             myRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed;
 
@@ -71,7 +73,7 @@ public class playerController : MonoBehaviour
             }
         
         
-
+        }
     }
 
     void Interact()
@@ -102,4 +104,30 @@ public class playerController : MonoBehaviour
             collider.GetComponent<Interactable>()?.Interact();
         }
     }
+
+
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        // if (other.gameObject.tag == "IntDialogSpace"){
+            
+        //     InternalDialogSpace space = other.gameObject.GetComponent<InternalDialogSpace>(); 
+        //     if (space.isActive) {
+        //         prSpeed = speed;
+        //         speed = 0;
+        //         isInText = true;
+        //         space.isActive = false;
+        //         myRB.velocity = new Vector2(0, 0);
+        //         StartCoroutine(DialogManager.Instance.ShowDialog(space.dialog, ""));
+        //         other.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+        //         isInText = false;
+        //         speed = prSpeed;
+        //     }
+        // }
+
+    }
+
+
+
+
 }
