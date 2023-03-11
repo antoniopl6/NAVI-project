@@ -109,21 +109,23 @@ public class playerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        // if (other.gameObject.tag == "IntDialogSpace"){
-            
-        //     InternalDialogSpace space = other.gameObject.GetComponent<InternalDialogSpace>(); 
-        //     if (space.isActive) {
-        //         prSpeed = speed;
-        //         speed = 0;
-        //         isInText = true;
-        //         space.isActive = false;
-        //         myRB.velocity = new Vector2(0, 0);
-        //         StartCoroutine(DialogManager.Instance.ShowDialog(space.dialog, ""));
-        //         other.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
-        //         isInText = false;
-        //         speed = prSpeed;
-        //     }
-        // }
+        if (other.gameObject.tag == "IntDialogSpace")
+        {
+
+            InternalDialogSpace space = other.gameObject.GetComponent<InternalDialogSpace>();
+            if (space.isActive)
+            {
+                prSpeed = speed;
+                speed = 0;
+                isInText = true;
+                space.isActive = false;
+                myRB.velocity = new Vector2(0, 0);
+                StartCoroutine(DialogManager.Instance.ShowDialog(space.dialog, ""));
+                other.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+                isInText = false;
+                speed = prSpeed;
+            }
+        }
 
     }
 
