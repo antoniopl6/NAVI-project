@@ -35,6 +35,9 @@ public class gameController : MonoBehaviour
         } 
         else if (state == GameState.Dialog)
         {
+            IplayerController.myRB.velocity = new Vector2(0,0);
+            IplayerController.myAnim.SetFloat("moveX", 0);
+            IplayerController.myAnim.SetFloat("moveY", 0);
             DialogManager.Instance.HandleUpdate();
         }
     }
