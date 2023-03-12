@@ -102,19 +102,7 @@ public class playerController : MonoBehaviour
 
 
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.tag == "IntDialogSpace")
-        {
-
-            InternalDialogSpace space = other.gameObject.GetComponent<InternalDialogSpace>();
-            if (space.isActive) {
-                space.isActive = false;
-                StartCoroutine(DialogManager.Instance.ShowDialog(space.dialog, ""));
-                
-            }
-        }
-
-    }
+    
 
 
 

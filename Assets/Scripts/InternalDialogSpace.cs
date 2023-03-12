@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class InternalDialogSpace : MonoBehaviour
 {
-    public bool isActive = true;
+    private bool isActive = true;
+    [SerializeField] bool oneTime = true;
     [SerializeField] public Dialog dialog;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "Player")
+        {
+            if (isActive) {
+                if (oneTime) {
+                    isActive = false;
+                }
+                StartCoroutine(DialogManager.Instance.ShowDialog(dialog, ""));
+                
+            }
+        }
+
+    }
     
 }
