@@ -45,9 +45,6 @@ TagManager:
   - name: Floor
     uniqueID: 3048098655
     locked: 0
-  - name: Floor 2
-    uniqueID: 3412750005
-    locked: 0
   - name: Decoration
     uniqueID: 2187828201
     locked: 0
