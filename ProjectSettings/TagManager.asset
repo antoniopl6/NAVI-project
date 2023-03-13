@@ -39,9 +39,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
+  - name: Environment
+    uniqueID: 4115550537
     locked: 0
   - name: Floor
     uniqueID: 3048098655
+    locked: 0
+  - name: Floor 2
+    uniqueID: 3412750005
+    locked: 0
+  - name: Decoration
+    uniqueID: 2187828201
+    locked: 0
+  - name: Decoration 2
+    uniqueID: 4178374385
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
