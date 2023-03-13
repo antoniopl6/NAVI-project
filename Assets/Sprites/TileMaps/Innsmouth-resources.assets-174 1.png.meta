@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4dc6f98db6ba57f419b7cc675ff875cc
+guid: 23c7e070069c6a44db028eb4b0d8e854
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -115,7 +115,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Innsmouth-resources.assets-174 1_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 298
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b44f6743251b146a9ac4a0f2ffe170
+      internalID: 778753477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +147,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Innsmouth-resources.assets-174 1_0: 778753477
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
