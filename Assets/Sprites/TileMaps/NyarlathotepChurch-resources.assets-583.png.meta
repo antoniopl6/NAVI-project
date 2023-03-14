@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,679 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 450
+        width: 381
+        height: 558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145a26a7ce788ea45abb91b765497031
+      internalID: -673807170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e496ff09f3b51ae4d98abdd560606c35
+      internalID: 411013390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1014
+        width: 386
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07349ab8728b9f94e9daddf024ca6a87
+      internalID: 990514163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 984
+        width: 122
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fef6cc1e949f544b68fba87000b811
+      internalID: -1555305722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_4
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 799
+        width: 124
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df6c2acf84573f4989edcfeedf95588
+      internalID: 2101938129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 626
+        width: 72
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa3d2ceffc73004e86d220c99a191e7
+      internalID: -262208698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_6
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 707
+        width: 53
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024a7b52b7c564249ae24a3d5458a2b1
+      internalID: -1001958149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_7
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 603
+        width: 45
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f047d65b915e5a4b81b5e964187e8d9
+      internalID: -167232001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_8
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 579
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfcd0721a2d3a24cb0a47963e5e8fe4
+      internalID: 2102752203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_9
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 555
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a80c69df369a14448b5a6590ede4d45
+      internalID: -786991474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_10
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 533
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda21faa19c2ed4409a8121ab77b4d1f
+      internalID: -961450183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_11
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 535
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92f68fb3cc91a74c94a0ff695eb407c
+      internalID: 116902725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 471
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdfce3bc232df149bf897d2a4d55a5d
+      internalID: 274253958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_13
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 435
+        width: 38
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709dd3169990d7c4aa73eaca93bbf0a5
+      internalID: -1615355895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_14
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 463
+        width: 22
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306405dcfbd897148b18b2aab5db1298
+      internalID: 420484827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 369
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484bfca20e49a3344a29135685e7460b
+      internalID: -2014449352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_16
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 382
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38750ed4c80cbb498b8a09584eb209f
+      internalID: 521343973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 332
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc35c74b3f4e0554197ab4ec8dd57bc8
+      internalID: 1678892223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_18
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 277
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019594ec194c45c4eb5a1360ff5a189a
+      internalID: 120400808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 269
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7395fc5fa82944285da5bbc23fbd03
+      internalID: -1193976596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 335
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09d2f695368c77489228aab47e33951
+      internalID: -777519526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_21
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 355
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f5e8e4f2478b04384ee9577c8a9942
+      internalID: -79295535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 389
+        width: 37
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23209d994abb88946a5a3454ee648223
+      internalID: 1497568478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_23
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 376
+        width: 21
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a59e2b3af53874d8e79c2326e8aeb2
+      internalID: -1210373015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_24
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 284
+        width: 20
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd4b1deb79d46c44b61471645b43e20
+      internalID: 98960924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 356
+        width: 173
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed647258430cc87499d1e245a32ab9d4
+      internalID: 1369638285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_26
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 152
+        width: 31
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe969273cbb7bce49a4d2837279513a9
+      internalID: 1408807168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 163
+        width: 126
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e29e99d92e6f3249a83574d58f4a9e9
+      internalID: -1450631690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 274
+        width: 32
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe43eb1e64b0db4bb7f3bef185d51af
+      internalID: -52769418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3228dde3663bfac4691129e94f13a9d5
+      internalID: 1939890443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 208
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ece5c8ac31f5a046ad9f5890ed11b06
+      internalID: 621800380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NyarlathotepChurch-resources.assets-583_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 303
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728ee3db34b22374e84d58e40a8417b2
+      internalID: -319731970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +798,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NyarlathotepChurch-resources.assets-583_9: -786991474
+      NyarlathotepChurch-resources.assets-583_25: 1369638285
+      NyarlathotepChurch-resources.assets-583_10: -961450183
+      NyarlathotepChurch-resources.assets-583_21: -79295535
+      NyarlathotepChurch-resources.assets-583_23: -1210373015
+      NyarlathotepChurch-resources.assets-583_18: 120400808
+      NyarlathotepChurch-resources.assets-583_5: -262208698
+      NyarlathotepChurch-resources.assets-583_8: 2102752203
+      NyarlathotepChurch-resources.assets-583_20: -777519526
+      NyarlathotepChurch-resources.assets-583_24: 98960924
+      NyarlathotepChurch-resources.assets-583_6: -1001958149
+      NyarlathotepChurch-resources.assets-583_13: -1615355895
+      NyarlathotepChurch-resources.assets-583_15: -2014449352
+      NyarlathotepChurch-resources.assets-583_29: 1939890443
+      NyarlathotepChurch-resources.assets-583_27: -1450631690
+      NyarlathotepChurch-resources.assets-583_16: 521343973
+      NyarlathotepChurch-resources.assets-583_4: 2101938129
+      NyarlathotepChurch-resources.assets-583_14: 420484827
+      NyarlathotepChurch-resources.assets-583_1: 411013390
+      NyarlathotepChurch-resources.assets-583_3: -1555305722
+      NyarlathotepChurch-resources.assets-583_11: 116902725
+      NyarlathotepChurch-resources.assets-583_19: -1193976596
+      NyarlathotepChurch-resources.assets-583_17: 1678892223
+      NyarlathotepChurch-resources.assets-583_7: -167232001
+      NyarlathotepChurch-resources.assets-583_0: -673807170
+      NyarlathotepChurch-resources.assets-583_22: 1497568478
+      NyarlathotepChurch-resources.assets-583_26: 1408807168
+      NyarlathotepChurch-resources.assets-583_2: 990514163
+      NyarlathotepChurch-resources.assets-583_12: 274253958
+      NyarlathotepChurch-resources.assets-583_28: -52769418
+      NyarlathotepChurch-resources.assets-583_31: -319731970
+      NyarlathotepChurch-resources.assets-583_30: 621800380
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,1057 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_0
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 940
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a94e51c4d2dc845b7b43adeea694df
+      internalID: 1619005461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1008
+        width: 91
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52387d91d64b9df4d996f8c2a00b0d2c
+      internalID: 1911325831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 958
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb259c2c37b48de4b810d481de88cfc6
+      internalID: 1130710818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 888
+        width: 95
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd9371507bc9ec4897831f187a59243
+      internalID: 1229641362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_4
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 822
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4b3e65a91305245aaf0d0068b7d98d
+      internalID: -596767670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_5
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 766
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3534e8c235a604949b745eccc1d2bd5c
+      internalID: 1228866517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_6
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 681
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3862e9eb7eb751d4b8c3a390caf88b20
+      internalID: -1162696477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_7
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 670
+        width: 23
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d78a000def32544a64891d44cde7d2
+      internalID: -390875662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_8
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 636
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa5bc80ccbe3fe4b8cd57d489223de3
+      internalID: -344486251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 733
+        width: 75
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7104fdfea23f854aa520e8893442701
+      internalID: -891082290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_10
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 746
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e35934fa69e8840bf3753b951fca01
+      internalID: 588087659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_11
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 708
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e17a8799f927244b871bf4368a317bd
+      internalID: -1832986597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_12
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 690
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced4e1acfcc778c44b28b0d3998c9249
+      internalID: 1619499870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 761
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0a2948e1541b74ab065c5972ac5720
+      internalID: 1192185269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 803
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62895f37b06c3574aaa0577c194f4c26
+      internalID: 389149726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_15
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 654
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af066c595c01c0341b8505f39aa2e2fd
+      internalID: -1504154021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 483
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360fb0723671c9a43bc567df16749ae7
+      internalID: 1484667930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a217350d4d8c57f44b7828286c599c75
+      internalID: 283627652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 536
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd49b3c3ca1f1b46a0a6e8f49d027ff
+      internalID: 1419707920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 963
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe14a6618613607408d55e1daf4fadc8
+      internalID: -868534407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 995
+        width: 59
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d6e43007578444fac3cfb45e296cb2
+      internalID: 787683493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 995
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a504aec7becad0489cbbf3ddf789f29
+      internalID: -873916078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_22
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 963
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4daefdd096510e64da92207262b3834f
+      internalID: 957138098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 30
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1808cdfca68c8014ba77c50bcbb8f71e
+      internalID: 709684076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 95
+        width: 22
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecff2a6e39e3f748b3d4f213b318614
+      internalID: 294121711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 241
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5c5b93cf0c5d84490a583502d5794e
+      internalID: -391583367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 275
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ede142993dd57941a87feb75ad42d55
+      internalID: -1124181756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_27
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 243
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47c34f7109f41f4aa652ff2599607b0
+      internalID: 1767383010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_28
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 558
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a489e5aef76784c90e707cb030aeb0
+      internalID: 60105663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_29
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 594
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada2221651c531040bda8a9f9505b529
+      internalID: 1913030838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_30
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 562
+        width: 60
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f117dc7fb4288f741a610ba3f317d039
+      internalID: -848586566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_31
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 346
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cca28c4b19ee5418937cfeb66a4495
+      internalID: -1712713184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_32
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 342
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9541cf5eafe2c6c4c94e0df6072815c4
+      internalID: 1870559187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_33
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 378
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc474e71e4179c4f878a1379305296e
+      internalID: 1396289212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_34
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 312
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2706db3284153d45be40e45818e66f7
+      internalID: -124188246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_35
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 339
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f021050e5c4ec324aba10e8dd412137d
+      internalID: 932426921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_36
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 381
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83edf057a370074686cfacb2d02662d
+      internalID: -880360776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_37
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 305
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbe8e835bdc1a14b89dfe6e6dc84bf9
+      internalID: 581980489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_38
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 281
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bfc97b69d7f3347853859bcb1d32d9
+      internalID: 136716659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_39
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 272
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0bcae279c0a3042b010962c78545d9
+      internalID: -2049591591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_40
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 272
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d825074ef2c97f48817837553e5e065
+      internalID: 441030919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 270
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa409dae20ad3a44945f00c9026765f
+      internalID: -125271419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_42
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 338
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ac1b2bcc427ef4184a2b02fb4fe33e
+      internalID: -371390038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_43
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 447
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a9e0e88a20a424c8a0909a1facb92d
+      internalID: 420352890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_44
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 405
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2734dac5c73f7df41b5d9c3ed3806bce
+      internalID: 614143230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_45
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 592
+        width: 63
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176e75788f654d64db2a1f20374004fa
+      internalID: 384422783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_46
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 843
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4011c943016fd49b023bc2e7cbd15e
+      internalID: 1338956280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_47
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 334
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09740af34b86a904eba5cdc8bb160709
+      internalID: -435126375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_48
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 399
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bc9a4abdf46e74fa989712572e5a20
+      internalID: 1815512412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatacombsNew-resources.assets-442_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 465
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6093c556528bba24aa6e261fe02949b6
+      internalID: -2045600241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +1176,58 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CatacombsNew-resources.assets-442_7: 854509794
+      CatacombsNew-resources.assets-442_45: 136716659
+      CatacombsNew-resources.assets-442_50: 420352890
+      CatacombsNew-resources.assets-442_12: 588087659
+      CatacombsNew-resources.assets-442_15: -86167452
+      CatacombsNew-resources.assets-442_25: 1419707920
+      CatacombsNew-resources.assets-442_3: -1257160209
+      CatacombsNew-resources.assets-442_13: -1505463662
+      CatacombsNew-resources.assets-442_36: 1913030838
+      CatacombsNew-resources.assets-442_32: -391583367
+      CatacombsNew-resources.assets-442_35: 60105663
+      CatacombsNew-resources.assets-442_47: 441030919
+      CatacombsNew-resources.assets-442_26: -868534407
+      CatacombsNew-resources.assets-442_10: -344486251
+      CatacombsNew-resources.assets-442_9: -390875662
+      CatacombsNew-resources.assets-442_20: -7491055
+      CatacombsNew-resources.assets-442_18: 1192185269
+      CatacombsNew-resources.assets-442_21: -1504154021
+      CatacombsNew-resources.assets-442_46: -2049591591
+      CatacombsNew-resources.assets-442_31: 294121711
+      CatacombsNew-resources.assets-442_4: 1229641362
+      CatacombsNew-resources.assets-442_6: 1228866517
+      CatacombsNew-resources.assets-442_17: 1619499870
+      CatacombsNew-resources.assets-442_28: -873916078
+      CatacombsNew-resources.assets-442_38: -1712713184
+      CatacombsNew-resources.assets-442_19: 389149726
+      CatacombsNew-resources.assets-442_14: 305590784
+      CatacombsNew-resources.assets-442_41: -124188246
+      CatacombsNew-resources.assets-442_39: 1870559187
+      CatacombsNew-resources.assets-442_33: -1124181756
+      CatacombsNew-resources.assets-442_34: 1767383010
+      CatacombsNew-resources.assets-442_37: -848586566
+      CatacombsNew-resources.assets-442_30: 709684076
+      CatacombsNew-resources.assets-442_48: -125271419
+      CatacombsNew-resources.assets-442_11: -891082290
+      CatacombsNew-resources.assets-442_27: 787683493
+      CatacombsNew-resources.assets-442_29: 957138098
+      CatacombsNew-resources.assets-442_49: -371390038
+      CatacombsNew-resources.assets-442_5: -596767670
+      CatacombsNew-resources.assets-442_2: 1130710818
+      CatacombsNew-resources.assets-442_24: 597450805
+      CatacombsNew-resources.assets-442_40: 1396289212
+      CatacombsNew-resources.assets-442_42: 932426921
+      CatacombsNew-resources.assets-442_8: -1162696477
+      CatacombsNew-resources.assets-442_43: -880360776
+      CatacombsNew-resources.assets-442_22: 1484667930
+      CatacombsNew-resources.assets-442_0: 1619005461
+      CatacombsNew-resources.assets-442_1: 1911325831
+      CatacombsNew-resources.assets-442_16: -1832986597
+      CatacombsNew-resources.assets-442_44: 581980489
+      CatacombsNew-resources.assets-442_23: 283627652
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
