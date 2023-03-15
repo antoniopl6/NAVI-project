@@ -14,6 +14,7 @@ public class HotelCinemDC : MonoBehaviour
     //otros efectos de sonido
     public AudioSource pasos;
     public AudioSource golpes;
+    public AudioSource salirCama;
     public AudioSource puertaRompiendose;
     public AudioSource grunyidoMonstruo;
     public AudioSource gritoMonstruo;
@@ -21,7 +22,7 @@ public class HotelCinemDC : MonoBehaviour
     public AudioSource puerta;
     public AudioSource cerrojo;
 
-    public string[] Sentences; //dialogos
+    public string[] Sentences; //dialogo
     private int Index = 0; //indice
     public float DialogueSpeed; //velocidad de texto
     public GameObject cuadroDialogo; //objeto del diseño del cuadro de dialogo
@@ -31,6 +32,9 @@ public class HotelCinemDC : MonoBehaviour
     public GameObject wackgroundHabitacionDia;
     public GameObject wackgroundHabitacionNoche;
     public GameObject wackgroundPuzzle;
+    //personaje
+    public GameObject mcFront;
+    public GameObject mcBack;
 
     private bool StartDialogue = true;
 
@@ -53,7 +57,7 @@ public class HotelCinemDC : MonoBehaviour
             else
             {
                 
-                if (Index != 1 && Index != 5 && Index != 8 && Index != 13 && Index != 15 && Index != 17 && Index != 21 && Index != 23)
+                if (Index != 1 && Index != 5 && Index != 8 && Index != 13 && Index != 14 && Index != 15 && Index != 17 && Index != 21 && Index != 23)
                 { //momento de sonido, entonces no quiero sonido de boton
                     botonSound.Play();
                 }
@@ -61,23 +65,33 @@ public class HotelCinemDC : MonoBehaviour
                 if (Index == 1)
                 { //muestra la habitacion
                     wackgroundHabitacionDia.SetActive(true);
+                    mcBack.SetActive(true);
                     escenaTranquila.Play();
+                }
+
+                if (Index == 2)
+                { //
+                    mcBack.SetActive(false);
+                    mcFront.SetActive(true);
                 }
 
                 if (Index == 5)
                 { //muestra puzzle
+                    mcFront.SetActive(false);
                     wackgroundHabitacionDia.SetActive(false);
                     wackgroundPuzzle.SetActive(true);
                 }
 
                 if (Index == 8)
                 { //muestra habitacion
+                    mcFront.SetActive(true);
                     wackgroundPuzzle.SetActive(false);
                     wackgroundHabitacionDia.SetActive(true);
                 }
 
                 if (Index == 9)
                 { //muestra en negro
+                    mcFront.SetActive(false);
                     wackgroundHabitacionDia.SetActive(false);
                 }
 
@@ -88,11 +102,22 @@ public class HotelCinemDC : MonoBehaviour
                     escenaNoche.Play();
                 }
 
+                if (Index == 14)
+                { //
+                    mcFront.SetActive(true);
+                }
+
                 if (Index == 18)
                 { //muestra habitacion noche
                     wackgroundHabitacionNoche.SetActive(true);
                     escenaNoche.Stop();
                     escenaTension.Play();
+                }
+
+                if (Index == 20)
+                { //
+                    mcFront.SetActive(false);
+                    mcBack.SetActive(true);
                 }
 
                 if (Index == 23)
@@ -132,6 +157,11 @@ public class HotelCinemDC : MonoBehaviour
             if (Index == 13)
             { //pasos
                 pasos.Play();
+            }
+
+            if (Index == 14)
+            { //sale de la cama
+                salirCama.Play();
             }
 
             if (Index == 15)
