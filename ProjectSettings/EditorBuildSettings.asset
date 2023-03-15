@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroCinem.unity
     guid: 0d944123e2d92d547bbad322b152dd6e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene2.unity
     guid: 3916577c6eac3b44a9ba0e1f567a2c00
   - enabled: 1
@@ -38,4 +38,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/varietyStoreFirstRoom1.unity
     guid: 6d123c377c8420a4880def6d8c6e3416
+  - enabled: 0
+    path: Assets/Scenes/Gameplay 1.unity
+    guid: d64efa4bf3b796b42bc8c0ecac526861
+  - enabled: 1
+    path: Assets/Scenes/Gameplay1.unity
+    guid: 046ec95b9bdbf2243b5ea62e946f3baf
+  - enabled: 1
+    path: Assets/Scenes/Gameplay2.unity
+    guid: 10b298e935ed7d34fb29ead71f0fb1a9
+  - enabled: 1
+    path: Assets/Scenes/groceryStore.unity
+    guid: 3bf8bf2ab82cfb04293462605187cbea
   m_configObjects: {}
