@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroCinem.unity
     guid: 0d944123e2d92d547bbad322b152dd6e
-  - enabled: 0
-    path: Assets/Scenes/Scene2.unity
-    guid: 3916577c6eac3b44a9ba0e1f567a2c00
   - enabled: 1
     path: Assets/Scenes/FinalCinem.unity
     guid: c9b95b22837b0e8419f0013a492a09fc
@@ -38,9 +35,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/varietyStoreFirstRoom1.unity
     guid: 6d123c377c8420a4880def6d8c6e3416
-  - enabled: 0
-    path: Assets/Scenes/Gameplay 1.unity
-    guid: d64efa4bf3b796b42bc8c0ecac526861
   - enabled: 1
     path: Assets/Scenes/Gameplay1.unity
     guid: 046ec95b9bdbf2243b5ea62e946f3baf
@@ -50,4 +44,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/groceryStore.unity
     guid: 3bf8bf2ab82cfb04293462605187cbea
+  - enabled: 1
+    path: Assets/Scenes/Gameplay3.unity
+    guid: bd4a09d23d8ef224d8301a3a43b2bd02
+  - enabled: 1
+    path: Assets/Scenes/GilmanHouse3.unity
+    guid: 7929c4736ae7d4340a8073d39ef10572
+  - enabled: 1
+    path: Assets/Scenes/GilmanHouse2.unity
+    guid: fc3d97809b9854f4782c5c178b2cb6a7
   m_configObjects: {}
