@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GilmanHouse1.unity
     guid: 59f0de4708d4c62468726c944fdeea6d
+  - enabled: 1
+    path: Assets/Scenes/varietyStoreFirstRoom2.unity
+    guid: a45b3f2694ade9c44867805c296ec06a
+  - enabled: 1
+    path: Assets/Scenes/varietyStoreSecondRoom.unity
+    guid: 40e7084acaa4829469ed7841980bc7f3
+  - enabled: 1
+    path: Assets/Scenes/varietyStoreFirstRoom1.unity
+    guid: 6d123c377c8420a4880def6d8c6e3416
   m_configObjects: {}
