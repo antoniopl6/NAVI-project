@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_0
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 627
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247ae1aec966aaa4a9b194ef2aaf76c8
+      internalID: -619410394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_1
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 828
+        width: 34
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47bc933165bda342a21f4cb5ec14904
+      internalID: 1764501021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_2
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 838
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfb95fd957c49343bd9287a2229f307
+      internalID: 1230774624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_3
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 806
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e044d261b2fc0264cb84c45c9a11b14b
+      internalID: 369948456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_4
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 970
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fc195c2abbd15428c15f20eae72d09
+      internalID: 1593138951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 619
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5fb268ca90b2f4fb1d4b5a47e1085f
+      internalID: -1176107065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_6
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 386
+        width: 95
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77df2587a297a945a4fa83d75e9cb59
+      internalID: -710029153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_7
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 341
+        width: 118
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376778265a0a17c46bf04e438e137bd8
+      internalID: -1178263772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_8
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 176
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cd044fab06ea247bb65271d527312a
+      internalID: 802175686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MansionQuests-resources.assets-375_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 515
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2600f0425e9c84c98e07c093c54e03
+      internalID: 897413548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +336,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MansionQuests-resources.assets-375_7: -1178263772
+      MansionQuests-resources.assets-375_0: -619410394
+      MansionQuests-resources.assets-375_8: 802175686
+      MansionQuests-resources.assets-375_1: 1764501021
+      MansionQuests-resources.assets-375_4: 1593138951
+      MansionQuests-resources.assets-375_9: 897413548
+      MansionQuests-resources.assets-375_2: 1230774624
+      MansionQuests-resources.assets-375_6: -710029153
+      MansionQuests-resources.assets-375_3: 369948456
+      MansionQuests-resources.assets-375_5: -1176107065
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

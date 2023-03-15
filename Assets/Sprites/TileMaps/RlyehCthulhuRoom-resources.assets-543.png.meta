@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 348
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddd5eaf96f9b9242bc3924b2b7ee627
+      internalID: 1672064535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1933
+        width: 304
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e0862cffbd8474f84af34819cd210f
+      internalID: 336917744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1835
+        width: 235
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9882a6768b9319449bcd3578ea407326
+      internalID: 526586558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_3
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1977
+        width: 106
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b7ebde688d85a4c9697218ef70980c
+      internalID: 414664727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_4
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1901
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6becfeab57c364a8e5d82b256fdad1
+      internalID: -227623236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_5
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1938
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df489a69872cf64fb3d4b1673497d16
+      internalID: 1568697672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_7
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1835
+        width: 65
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9a8b1e4c1a1834495aa2e8a9ee5d05
+      internalID: 1672818724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_8
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1823
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c204311cceff74592a3d2d2f4df887
+      internalID: 835107449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1724
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d260d90eb579dd41ba5a8006bc5b306
+      internalID: -143384789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_11
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1679
+        width: 56
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4524eefca5c8e342b532f4d680f5c48
+      internalID: 285237330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_13
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1767
+        width: 134
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670d340128a927345ae5e3c744aa5b5e
+      internalID: -245769967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_14
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1643
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77ce7a202d10d940a212920e7117b75
+      internalID: -579795672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_16
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1603
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff642deb2cd5dd8478abe7666ae372af
+      internalID: 340308244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1535
+        width: 79
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9ecae060f7d0c46a08c99822959e5f
+      internalID: 1329037328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_19
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1524
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5465e06e565ecce4a9d001415fdef5ba
+      internalID: 251265987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_23
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1459
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb917d1a46cff4543af99e4f6544a62a
+      internalID: -2004998157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_25
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1438
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e57e6a2947a8d04d8e6aeda9828ec81
+      internalID: 297838226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_27
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1380
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be5ae3b8a4bfe24ebe8a037976d6bec
+      internalID: -1792393136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_28
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1357
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49876a9180bf6b44b9a6682a55e8d0ea
+      internalID: 555463694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_29
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1275
+        width: 165
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a9c183b03914940b91bf45a8168c64
+      internalID: 207314509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1300
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2869e1f295396be4683080893c8eb8fc
+      internalID: -188624594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_32
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1278
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cafc52488295744b7dd9af903cacfa
+      internalID: 349819309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_34
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1107
+        width: 132
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e09d844ac27e94691cf3cb2e5d0524
+      internalID: -1544816593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_35
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1199
+        width: 75
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e2b8894e536c940a69c557e1e53f76
+      internalID: 1831146184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_37
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1206
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569f5cfad439c624db6f1c62f9b03877
+      internalID: -2129405358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_38
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1163
+        width: 69
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deafa3c98812ce84bb7a3161b74241bb
+      internalID: 1825170885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_42
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1121
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabec471bd211b54daea584194f23445
+      internalID: 1838475704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_44
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1125
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91397130087269742bbcd7ceef4c8ac0
+      internalID: -146049175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_45
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1079
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0693989003f021f4b887eac3b1ace887
+      internalID: 1696484292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_48
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1017
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6210c8a19c5061c43b7c857ae87a241b
+      internalID: 1327232166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_50
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 857
+        width: 138
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e03e56029f92014798c8b14af402325
+      internalID: 1526786985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_51
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 882
+        width: 138
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00faba93617d8a49beda856a98b1c74
+      internalID: 374353701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_39
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1057
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c3fe75417981746b77498b82b1f097
+      internalID: -1708569209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RlyehCthulhuRoom-resources.assets-543_6
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1956
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f7ac497297731479c02b8c3daa8d30
+      internalID: -1380868212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +840,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RlyehCthulhuRoom-resources.assets-543_7: 1672818724
+      RlyehCthulhuRoom-resources.assets-543_36: -1745428616
+      RlyehCthulhuRoom-resources.assets-543_16: 340308244
+      RlyehCthulhuRoom-resources.assets-543_38: 1825170885
+      RlyehCthulhuRoom-resources.assets-543_46: 364917708
+      RlyehCthulhuRoom-resources.assets-543_6: -1380868212
+      RlyehCthulhuRoom-resources.assets-543_32: 349819309
+      RlyehCthulhuRoom-resources.assets-543_43: -196050848
+      RlyehCthulhuRoom-resources.assets-543_42: 1838475704
+      RlyehCthulhuRoom-resources.assets-543_28: 555463694
+      RlyehCthulhuRoom-resources.assets-543_15: 21983004
+      RlyehCthulhuRoom-resources.assets-543_30: 833418964
+      RlyehCthulhuRoom-resources.assets-543_20: -1007076978
+      RlyehCthulhuRoom-resources.assets-543_10: -143384789
+      RlyehCthulhuRoom-resources.assets-543_47: -465958104
+      RlyehCthulhuRoom-resources.assets-543_34: -1544816593
+      RlyehCthulhuRoom-resources.assets-543_26: -1205236826
+      RlyehCthulhuRoom-resources.assets-543_24: 1915000353
+      RlyehCthulhuRoom-resources.assets-543_13: -245769967
+      RlyehCthulhuRoom-resources.assets-543_31: -188624594
+      RlyehCthulhuRoom-resources.assets-543_27: -1792393136
+      RlyehCthulhuRoom-resources.assets-543_0: 1672064535
+      RlyehCthulhuRoom-resources.assets-543_18: 1329037328
+      RlyehCthulhuRoom-resources.assets-543_9: 343782389
+      RlyehCthulhuRoom-resources.assets-543_11: 285237330
+      RlyehCthulhuRoom-resources.assets-543_2: 526586558
+      RlyehCthulhuRoom-resources.assets-543_25: 297838226
+      RlyehCthulhuRoom-resources.assets-543_50: 1526786985
+      RlyehCthulhuRoom-resources.assets-543_39: -1708569209
+      RlyehCthulhuRoom-resources.assets-543_5: 1568697672
+      RlyehCthulhuRoom-resources.assets-543_22: 1737950027
+      RlyehCthulhuRoom-resources.assets-543_40: -1708807785
+      RlyehCthulhuRoom-resources.assets-543_21: 151831832
+      RlyehCthulhuRoom-resources.assets-543_17: 1396228401
+      RlyehCthulhuRoom-resources.assets-543_44: -146049175
+      RlyehCthulhuRoom-resources.assets-543_51: 374353701
+      RlyehCthulhuRoom-resources.assets-543_3: 414664727
+      RlyehCthulhuRoom-resources.assets-543_12: -762289119
+      RlyehCthulhuRoom-resources.assets-543_19: 251265987
+      RlyehCthulhuRoom-resources.assets-543_23: -2004998157
+      RlyehCthulhuRoom-resources.assets-543_33: -1064681678
+      RlyehCthulhuRoom-resources.assets-543_4: -227623236
+      RlyehCthulhuRoom-resources.assets-543_14: -579795672
+      RlyehCthulhuRoom-resources.assets-543_45: 1696484292
+      RlyehCthulhuRoom-resources.assets-543_49: -711223861
+      RlyehCthulhuRoom-resources.assets-543_35: 1831146184
+      RlyehCthulhuRoom-resources.assets-543_1: 336917744
+      RlyehCthulhuRoom-resources.assets-543_37: -2129405358
+      RlyehCthulhuRoom-resources.assets-543_8: 835107449
+      RlyehCthulhuRoom-resources.assets-543_29: 207314509
+      RlyehCthulhuRoom-resources.assets-543_41: -437172557
+      RlyehCthulhuRoom-resources.assets-543_48: 1327232166
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

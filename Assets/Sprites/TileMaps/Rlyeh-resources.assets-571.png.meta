@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,931 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1ab04bb9638c54b8649be18c480275
+      internalID: -75608156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 435
+        width: 66
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7025bde176902a48854f4374b35adc7
+      internalID: -2048503657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 185
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8f46a3550446a4393b57f7ff8c7ef4
+      internalID: 1509905369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 166
+        width: 68
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad76a597647c98c4b9529b149bcc5592
+      internalID: 891128426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 45
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0855c6c8a1caa794e962137fc86c1576
+      internalID: 1660289616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_5
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 447
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d6ffad02e758844a28f0f499b0958e
+      internalID: -931999039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 405
+        width: 49
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524706132e61ebc428ee0ca092ac6003
+      internalID: 305031624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 405
+        width: 42
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b545521e59e0fb24dba75551fc0cd59d
+      internalID: 664969212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 391
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db2ef8370b1cd14191ec91735b9b646
+      internalID: -1083346399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 322
+        width: 42
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865c2a35a8c1a854d847beee241a9c94
+      internalID: -1022962263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 328
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906549f6bd7351b4b80d9dd9ceb6d815
+      internalID: 1072952917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 332
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2889a3e643d59d34b97a1da4d1a7c12a
+      internalID: 323553140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_12
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 300
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b588a1d0a32af0d43a024629c3a149d8
+      internalID: 558430950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 294
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf6817cfe11e4a4a930b7f4a6831052
+      internalID: -220945183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_14
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 259
+        width: 13
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeee84b462aaae546b37f525830bffc9
+      internalID: -405494986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 235
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ec9031f000424469b1fd70bf09841a
+      internalID: -353213020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_16
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 188
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef371fcfd371ef408d3c671d5954866
+      internalID: 1669624414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 266
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c2821cec9e98349a8aeacbb59f7f15
+      internalID: -2043932814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 80
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b74c1277b11674b806c073fb2bc2b1
+      internalID: 621723412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 70
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19211cf54f96cd349b13e73f5660d151
+      internalID: 452495705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 78
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6424da8d372cfe94ebfdf6ad7d0353a5
+      internalID: 110616044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 82
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c69851b025f7b498b3f085bdaa3490
+      internalID: 1509132920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 83
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4184fb6ad8e5999449e04ff93917a4b0
+      internalID: -702515586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_23
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 117
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfb6bd58085e544a9004bcbc3e24a28
+      internalID: -1242815424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_24
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 4
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c144a29961a69a48ad0edd2dfd466b8
+      internalID: -698936803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_25
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 18
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca88affc406de8d40abec4f4bda3b589
+      internalID: -446437309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_26
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268634177bc3b534fb0ce2f34e50fd1a
+      internalID: 1960047674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c1a26c7555b05439fa9e08f9ac2222
+      internalID: 1700045333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_28
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 373
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ddfe39d10f15541b64c22b543fe1cd
+      internalID: 1953660836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_29
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 373
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eced57ded69f7b64c91e1839f0ff8aba
+      internalID: 565515496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_30
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 373
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf60b0a39467a34d9e18745c034eb29
+      internalID: -1068633745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_31
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 369
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0f5038dd0256f4c943ea281468d968
+      internalID: -1229025354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 369
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57692b5d5d069bb4784d8ab492fc5132
+      internalID: -1735697634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 446
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eb503107fe10f4a9fbc84e5f104aec
+      internalID: -1321129555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_34
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 446
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ad08fb6edff1f409578797c9775ff4
+      internalID: 1058188233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_35
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 446
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77c3d6e33627464a9144ac6910c8a86
+      internalID: -91011498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b489aa8bd6e79479f8e2fde562aeb1
+      internalID: -1951580101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_37
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 16
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb470627a92fe542af9ff7209385342
+      internalID: 1372874961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_38
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 12
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a134afb7d9e9c464390ea395555dcdcc
+      internalID: -2006970363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_39
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 119
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e512afcc888ed94990b0f3bbc5cbf15
+      internalID: 1721678805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_40
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 155
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2abbba4330bb345be52606c56273c4
+      internalID: -1534269447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_41
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 155
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad98c78b78408bd4a87a0724c034fd45
+      internalID: -482277805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_42
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 228
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa8c3748f0b90e479df69805908c3a6
+      internalID: -1347369537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rlyeh-resources.assets-571_43
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 228
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9944186c60f7aa74296684078ad61b99
+      internalID: 1854548441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +1050,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rlyeh-resources.assets-571_2: 1509905369
+      Rlyeh-resources.assets-571_10: 1072952917
+      Rlyeh-resources.assets-571_41: -482277805
+      Rlyeh-resources.assets-571_14: -405494986
+      Rlyeh-resources.assets-571_28: 1953660836
+      Rlyeh-resources.assets-571_35: -91011498
+      Rlyeh-resources.assets-571_11: 323553140
+      Rlyeh-resources.assets-571_4: 1660289616
+      Rlyeh-resources.assets-571_8: -1083346399
+      Rlyeh-resources.assets-571_31: -1229025354
+      Rlyeh-resources.assets-571_19: 452495705
+      Rlyeh-resources.assets-571_6: 305031624
+      Rlyeh-resources.assets-571_16: 1669624414
+      Rlyeh-resources.assets-571_22: -702515586
+      Rlyeh-resources.assets-571_39: 1721678805
+      Rlyeh-resources.assets-571_13: -220945183
+      Rlyeh-resources.assets-571_36: -1951580101
+      Rlyeh-resources.assets-571_29: 565515496
+      Rlyeh-resources.assets-571_34: 1058188233
+      Rlyeh-resources.assets-571_21: 1509132920
+      Rlyeh-resources.assets-571_20: 110616044
+      Rlyeh-resources.assets-571_17: -2043932814
+      Rlyeh-resources.assets-571_40: -1534269447
+      Rlyeh-resources.assets-571_43: 1854548441
+      Rlyeh-resources.assets-571_27: 1700045333
+      Rlyeh-resources.assets-571_7: 664969212
+      Rlyeh-resources.assets-571_30: -1068633745
+      Rlyeh-resources.assets-571_9: -1022962263
+      Rlyeh-resources.assets-571_25: -446437309
+      Rlyeh-resources.assets-571_32: -1735697634
+      Rlyeh-resources.assets-571_3: 891128426
+      Rlyeh-resources.assets-571_5: -931999039
+      Rlyeh-resources.assets-571_0: -75608156
+      Rlyeh-resources.assets-571_1: -2048503657
+      Rlyeh-resources.assets-571_26: 1960047674
+      Rlyeh-resources.assets-571_23: -1242815424
+      Rlyeh-resources.assets-571_15: -353213020
+      Rlyeh-resources.assets-571_33: -1321129555
+      Rlyeh-resources.assets-571_37: 1372874961
+      Rlyeh-resources.assets-571_18: 621723412
+      Rlyeh-resources.assets-571_12: 558430950
+      Rlyeh-resources.assets-571_24: -698936803
+      Rlyeh-resources.assets-571_38: -2006970363
+      Rlyeh-resources.assets-571_42: -1347369537
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
