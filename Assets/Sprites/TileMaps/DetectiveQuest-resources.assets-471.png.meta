@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +115,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 165
+        width: 33
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1961575c84874e48b48b291ff509abe
+      internalID: 597240601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 172
+        width: 42
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cfc63fd28f16f45a554eb0a16c47ad
+      internalID: 1240256399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 178
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba2a12b6ecd30444bfd8d5451184bd3
+      internalID: -989450444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 40
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941132964569ee74d90aa69c2f1d689a
+      internalID: 997956546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 66
+        width: 42
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496226e57d3617747acf1db02facdc57
+      internalID: 584121890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 23
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934daeeee3ca74b41b1b0a39bf7f45ec
+      internalID: 1934794285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 4
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c33771a2de8a4547a4b5ac76be549fb
+      internalID: -1274181720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 178
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fc97532a8660648b6fc4beb0ac1259
+      internalID: 933062800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 165
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a479b042382c542b8d85c00e104fc5
+      internalID: -1234368229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetectiveQuest-resources.assets-471_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 42
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5048fdfef69c69844b45113157aedaa9
+      internalID: 1111184527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +336,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DetectiveQuest-resources.assets-471_1: 1240256399
+      DetectiveQuest-resources.assets-471_12: -1234368229
+      DetectiveQuest-resources.assets-471_10: -1274181720
+      DetectiveQuest-resources.assets-471_5: 1111184527
+      DetectiveQuest-resources.assets-471_11: -1501571201
+      DetectiveQuest-resources.assets-471_0: 597240601
+      DetectiveQuest-resources.assets-471_3: 997956546
+      DetectiveQuest-resources.assets-471_6: -411138493
+      DetectiveQuest-resources.assets-471_2: -989450444
+      DetectiveQuest-resources.assets-471_9: 1195934660
+      DetectiveQuest-resources.assets-471_7: 584121890
+      DetectiveQuest-resources.assets-471_8: 1934794285
+      DetectiveQuest-resources.assets-471_4: 933062800
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
