@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: 426db30e2bebf604899b1c8b392b51f3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 992
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfe9363e3943ed46b0b530ab6813e43
+      internalID: 1180851812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 997
+        width: 65
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabffe4e8e3a02542abda8991fbf7c71
+      internalID: 1527660357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 997
+        width: 70
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7fefdde11f4da4aae0de27309eed83
+      internalID: -1069219875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 992
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eda62d5375130142a4e2f7739e466be
+      internalID: -514130238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_4
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1002
+        width: 70
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f51e9778505564295866e3b72491d6
+      internalID: 277442974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_5
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 992
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8881bdb8974a5c241b5fab07205d7ebe
+      internalID: 1600871294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_6
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 992
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb9542ef2ac06848a0d381637cbbdf9
+      internalID: 1464555848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_7
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 997
+        width: 65
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14adb268702902741bcb2c4166b56798
+      internalID: 1550839473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_8
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 997
+        width: 70
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d36024edb596844bc40b5959d9c079
+      internalID: -1521267244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 767
+        width: 95
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6329f5dd2814aa46a7259aea8b5fff0
+      internalID: 883125483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 757
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c15296948cce0c4cab7e2565a539ec3
+      internalID: -267318073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_11
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 767
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cdaf85867dd714291916850fe1d8aa
+      internalID: 22146335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_12
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 752
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7a16823e02cec439abaaa63808da8c
+      internalID: 1380269009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_13
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 762
+        width: 70
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48bfc52888dd2f498e49fed7969f0a5
+      internalID: -576155779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_14
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 752
+        width: 75
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6acbc2b0cdc5144fb2116a2fb4e3852
+      internalID: -1528719278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_15
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 767
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c35af664dfdb5940a0c70715ff38bbb
+      internalID: -1137757973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_16
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 757
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7d6d4463a7e274b8a21dde10b9cc84
+      internalID: 1626357868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_17
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 767
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47f109ef1eaf46459cc40da9ee87d71
+      internalID: 1048215849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 522
+        width: 95
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42b3e0721855b94db4aa82851332160
+      internalID: 597945761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_19
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 517
+        width: 50
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a8852728bd58845be206516d7373e3
+      internalID: -1660927131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_20
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 522
+        width: 95
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998fb4b449f135940bf36fc233784d8c
+      internalID: -1426512262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_21
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 522
+        width: 95
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3377b340270e888418cf255d47d703a0
+      internalID: 1102284500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_22
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 517
+        width: 55
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d5f332651b69e49a5086feabe22191
+      internalID: 547673461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_23
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 522
+        width: 95
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa30741b74b93943bb66e0ce4b77615
+      internalID: 566073842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 277
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0949ecdac940c05469a85714d5d5959c
+      internalID: -1105375457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 272
+        width: 60
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33768240f1ab7d44e8dbfe6e572f3948
+      internalID: -319700005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_26
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 277
+        width: 85
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715bbb0d7571f1e4f9fca859a2bbd754
+      internalID: 1095991709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_27
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 282
+        width: 80
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaf1c0d181fe364ba4dba58ee72b6d7
+      internalID: -430134974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_28
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 277
+        width: 70
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d9e3b72f1eaba4fb879b7414cef2c2
+      internalID: 1586655886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_29
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 282
+        width: 80
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10be4c8a7c7547c4b9301b1aca238c8c
+      internalID: 1021743785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_30
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 277
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbda729ebad47a478dd7f00dd33e997
+      internalID: 1480638157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_31
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 272
+        width: 60
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08385259b2812ed418908e329bd1f2d8
+      internalID: -1771153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_32
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 277
+        width: 85
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5963f96bd2ac245bb73c430c16e8ea
+      internalID: 1441083411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 37
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fe694fc9e8fab4888e118a0c13c1cf
+      internalID: 536762917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 37
+        width: 100
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d102a5043a2224b9d5832e1d42a307
+      internalID: 217052857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_35
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 52
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf1e4e212d755a418a7be72ccbf45c5
+      internalID: 797356172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_36
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 37
+        width: 80
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f5c175d5592e9408bfe707f846eda2
+      internalID: 1852175731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_37
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 42
+        width: 100
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb713c015a2882a4fa9533eda2827863
+      internalID: 516271682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_38
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 37
+        width: 90
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbe9ea0bfb904443a084ba223e18323
+      internalID: 1303706952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balaclavaMCOscuro_39
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 37
+        width: 100
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b6a7af99cc4d941bd70bfe246581a9
+      internalID: 1086063171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      balaclavaMCOscuro_31: -1771153
+      balaclavaMCOscuro_35: 797356172
+      balaclavaMCOscuro_36: 1852175731
+      balaclavaMCOscuro_38: 1303706952
+      balaclavaMCOscuro_15: -1137757973
+      balaclavaMCOscuro_20: -1426512262
+      balaclavaMCOscuro_23: 566073842
+      balaclavaMCOscuro_33: 536762917
+      balaclavaMCOscuro_32: 1441083411
+      balaclavaMCOscuro_24: -1105375457
+      balaclavaMCOscuro_39: 1086063171
+      balaclavaMCOscuro_19: -1660927131
+      balaclavaMCOscuro_1: 1527660357
+      balaclavaMCOscuro_0: 1180851812
+      balaclavaMCOscuro_16: 1626357868
+      balaclavaMCOscuro_8: -1521267244
+      balaclavaMCOscuro_11: 22146335
+      balaclavaMCOscuro_14: -1528719278
+      balaclavaMCOscuro_2: -1069219875
+      balaclavaMCOscuro_3: -514130238
+      balaclavaMCOscuro_7: 1550839473
+      balaclavaMCOscuro_4: 277442974
+      balaclavaMCOscuro_27: -430134974
+      balaclavaMCOscuro_6: 1464555848
+      balaclavaMCOscuro_22: 547673461
+      balaclavaMCOscuro_28: 1586655886
+      balaclavaMCOscuro_29: 1021743785
+      balaclavaMCOscuro_17: 1048215849
+      balaclavaMCOscuro_25: -319700005
+      balaclavaMCOscuro_37: 516271682
+      balaclavaMCOscuro_9: 883125483
+      balaclavaMCOscuro_13: -576155779
+      balaclavaMCOscuro_10: -267318073
+      balaclavaMCOscuro_5: 1600871294
+      balaclavaMCOscuro_21: 1102284500
+      balaclavaMCOscuro_18: 597945761
+      balaclavaMCOscuro_12: 1380269009
+      balaclavaMCOscuro_30: 1480638157
+      balaclavaMCOscuro_34: 217052857
+      balaclavaMCOscuro_26: 1095991709
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
