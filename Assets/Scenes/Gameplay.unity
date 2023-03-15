@@ -3791,7 +3791,7 @@ GameObject:
   - component: {fileID: 621235428}
   - component: {fileID: 621235427}
   - component: {fileID: 621235426}
-  - component: {fileID: 621235425}
+  - component: {fileID: 621235430}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3807,39 +3807,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621235423}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -42.26, y: -32.06, z: -0.000000054483}
-  m_LocalScale: {x: 0.9408929, y: 0.9408929, z: 0.9408929}
+  m_LocalPosition: {x: -42.0159, y: -32.4229, z: -0.000000054483}
+  m_LocalScale: {x: 3.5107536, y: 3.0146208, z: 0.9408929}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1063983792}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &621235425
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 621235423}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 1.45}
-    newSize: {x: 0.16, y: 0.19}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.7, y: 1.45}
-  m_EdgeRadius: 0
 --- !u!95 &621235426
 Animator:
   serializedVersion: 5
@@ -3948,7 +3922,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1051423195, guid: 416a7a8c1b1f58a4e92e7e31f34c2105, type: 3}
+  m_Sprite: {fileID: -453940377, guid: fbe03e5956834c74eaf599fe3a3d98a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3959,6 +3933,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &621235430
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621235423}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.19, y: 0.35}
+    newSize: {x: 0.16, y: 0.19}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.19, y: 0.35}
+  m_EdgeRadius: 0
 --- !u!1 &779273546
 GameObject:
   m_ObjectHideFlags: 0
@@ -4098,7 +4098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30fe3bf08f5e73e43a84317c258d91d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Scene2
+  sceneName: GilmanHouse
   newPosition: {x: 0, y: 0}
 --- !u!66 &923268867
 CompositeCollider2D:
