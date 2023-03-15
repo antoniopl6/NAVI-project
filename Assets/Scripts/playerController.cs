@@ -32,7 +32,18 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     public void HandleUpdate()
     {
-            myRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * speed;
+            
+            Vector2 movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+            if (Mathf.Abs(movement.x) > Mathf.Abs(movement.y))
+            {
+                movement.y = 0;
+            }
+            else
+            {
+                movement.x = 0;
+            }
+            myRB.velocity = new Vector2(movement.x, movement.y) * speed;
 
             //Stealth mode try
             if (Input.GetKeyDown(KeyCode.LeftControl)) {
