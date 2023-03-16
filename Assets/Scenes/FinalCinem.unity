@@ -466,7 +466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -179}
+  m_AnchoredPosition: {x: -120, y: -203}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573506600
@@ -516,8 +516,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27
-  m_fontSizeBase: 27
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -54.569824, y: -22.580658, z: -284.1399, w: -16.935364}
+  m_margin: {x: -79.74283, y: -11.567459, z: -329.76605, w: -5.9221497}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1157,7 +1157,7 @@ RectTransform:
   m_GameObject: {fileID: 1070216076}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.72, y: 0.84, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1569625545}
@@ -1165,8 +1165,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5, y: -137}
-  m_SizeDelta: {x: -43.30847, y: -252.1176}
+  m_AnchoredPosition: {x: 5, y: -157}
+  m_SizeDelta: {x: -43.30847, y: -252.11761}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1070216078
 Animator:
@@ -1290,7 +1290,7 @@ MonoBehaviour:
   - Ante la imagen, Mr. Balaclava se desmaya, aun oculto, y los profundos pasan de
     largo por delante sin avistarle.
   - "Por ahora, nuestro protagonista est\xE1 salvado, pero eso puede durar poco."
-  DialogueSpeed: 0.02
+  DialogueSpeed: 0.009
   cuadroDialogo: {fileID: 1070216076}
   wackground1: {fileID: 1524856118}
   wackground2: {fileID: 601281889}

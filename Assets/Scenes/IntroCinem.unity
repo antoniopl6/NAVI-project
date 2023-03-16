@@ -287,8 +287,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -221}
-  m_SizeDelta: {x: 0.000061035, y: 529.2454}
+  m_AnchoredPosition: {x: 0, y: -204}
+  m_SizeDelta: {x: 0, y: 628.3642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &512741078
 MonoBehaviour:
@@ -369,7 +369,7 @@ RectTransform:
   m_GameObject: {fileID: 585781696}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.72655314, y: 0.8440625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1284241447}
@@ -377,7 +377,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5, y: -137}
+  m_AnchoredPosition: {x: 5, y: -157}
   m_SizeDelta: {x: -43.30847, y: -252.1176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &585781698
@@ -1358,7 +1358,7 @@ MonoBehaviour:
     en misterio."
   - 'Mr. Balaclava: Ya que voy hacia Arkham city, y aprovechando la oportunidad para
     hacer turismo, no es mala idea dar una vuelta por Innsmouth durante unas horas. '
-  DialogueSpeed: 0.02
+  DialogueSpeed: 0.009
   cuadroDialogo: {fileID: 585781696}
   cerrar: {fileID: 1102287304}
 --- !u!1 &1284241443
@@ -2452,8 +2452,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27
-  m_fontSizeBase: 27
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2488,7 +2488,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -54.569824, y: -22.580658, z: -284.1399, w: -16.935364}
+  m_margin: {x: -78.169525, y: 16.752136, z: -310.8863, w: -29.521866}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
