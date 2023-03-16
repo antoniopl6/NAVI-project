@@ -1350,17 +1350,18 @@ MonoBehaviour:
     sol se asoma por el horizonte, all\xE1 donde la vista se pierde entre las olas
     del mar. "
   - "Parece que ser\xE1 un d\xEDa soleado y con buen tiempo. "
-  - "Interfono                                                                                 
+  - " Interfono                                                                                   
     A 20 minutos de Innsmouth, \xFAltima parada."
-  - '                                                                          Robert
-    Olmstead Ya queda menos para llegar. Y pensar que esta localidad no sale ni en
-    los mapas.'
-  - "                                                                          Robert
-    Olmstead Si no hubiera sido por el empleado de la estaci\xF3n de trenes, en Newburyport,
-    nunca habr\xEDa conocido la existencia de este pueblo envuelto en misterio."
-  - '                                                                          Robert
-    Olmstead Ya que voy hacia Arkham city, y aprovechando la oportunidad para hacer
-    turismo, no es mala idea dar una vuelta por Innsmouth durante unas horas. '
+  - '                                                                           
+    Robert Olmstead Ya queda menos para llegar. Y pensar que esta localidad no sale
+    ni en los mapas.'
+  - "                                                                           
+    Robert Olmstead Si no hubiera sido por el empleado de la estaci\xF3n de trenes,
+    en Newburyport, nunca habr\xEDa conocido la existencia de este pueblo envuelto
+    en misterio."
+  - '                                                                           
+    Robert Olmstead Ya que voy hacia Arkham city, y aprovechando la oportunidad para
+    hacer turismo, no es mala idea dar una vuelta por Innsmouth durante unas horas. '
   DialogueSpeed: 0.009
   cuadroDialogo: {fileID: 585781696}
   cerrar: {fileID: 1102287304}
@@ -2455,8 +2456,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

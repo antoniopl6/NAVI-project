@@ -576,18 +576,18 @@ MonoBehaviour:
   botonAudio: {fileID: 1746491486}
   hombreCorriendoAudio: {fileID: 1225197252}
   Sentences:
-  - "                                                                          Robert
-    Olmstead Parece que los he dejado atr\xE1s, pero no tardar\xE1n en darme caza,
-    he de moverme. A ver, piensa, \xA1piensa! \xBFA d\xF3nde voy?"
-  - "                                                                          Robert
-    Olmstead \xA1Lo tengo! Me puedo esconder en la estaci\xF3n de ferrocarril abandonada,
-    a las afueras del pueblo."
+  - "                                                                           
+    Robert Olmstead Parece que los he dejado atr\xE1s, pero no tardar\xE1n en darme
+    caza, he de moverme. A ver, piensa, \xA1piensa! \xBFA d\xF3nde voy?"
+  - "                                                                           
+    Robert Olmstead \xA1Lo tengo! Me puedo esconder en la estaci\xF3n de ferrocarril
+    abandonada, a las afueras del pueblo."
   - "Escuchando sonidos lejanos, como si le siguieran, Robert corre por las calles
     oscuras hasta que llega a la estaci\xF3n de ferrocarril apartada. Agotado, mirar
     a su alrededor y razona."
-  - "                                                                          Robert
-    Olmstead Ah\u2026 Ah\u2026 No puedo seguir corriendo... He de esconderme entre
-    la maleza, con suerte no vendr\xE1n hasta aqu\xED."
+  - "                                                                           
+    Robert Olmstead Ah\u2026 Ah\u2026 No puedo seguir corriendo... He de esconderme
+    entre la maleza, con suerte no vendr\xE1n hasta aqu\xED."
   DialogueSpeed: 0.009
   cuadroDialogo: {fileID: 248447736}
   cerrar: {fileID: 27134856}
@@ -1364,8 +1364,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

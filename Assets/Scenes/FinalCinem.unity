@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1276,11 +1276,11 @@ MonoBehaviour:
   monsterAudio: {fileID: 1369623044}
   Sentences:
   - "Los rugidos de los profundos se escucha cada vez m\xE1s alto."
-  - "                                                                          Robert
-    Olmstead \xA1Se aceran!"
+  - "                                                                           
+    Robert Olmstead \xA1Se aceran!"
   - Robert observa aterrado desde su escondite. La escena parece irreal.
-  - "                                                                          Robert
-    Olmstead \xBFPero qu\xE9...?"
+  - "                                                                           
+    Robert Olmstead \xBFPero qu\xE9...?"
   - 'Una escena aterradora se alzaba ante sus ojos: decenas y decenas de hombres
     con aspecto de rana y ranas con aspecto humanoide marchaban con paso inestable
     pero firme. '
@@ -1288,8 +1288,8 @@ MonoBehaviour:
     aletas de distintos tama\xF1os en lugar de pies y manos."
   - "Cada vez emit\xEDan un ruido m\xE1s ensordecedor y l\xFAgubre, una especie de
     c\xE1ntico en un idioma desconocido que no parec\xEDa provenir de este mundo. "
-  - "                                                                          Robert
-    Olmstead No\u2026puede\u2026ser..."
+  - "                                                                           
+    Robert Olmstead No\u2026puede\u2026ser..."
   - Ante la imagen, Robert se desmaya, aun oculto, y los profundos pasan de largo
     por delante sin avistarle.
   - "Por ahora, nuestro protagonista est\xE1 salvado, pero eso puede durar poco."

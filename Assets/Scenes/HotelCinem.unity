@@ -2395,8 +2395,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3510,45 +3510,45 @@ MonoBehaviour:
   Sentences:
   - "Nuestro protagonista entra por fin en la habitaci\xF3n de hotel y la observa
     atentamente."
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead Bueno... No est\xE1 tan mal... \xBFEh?"
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead Pero si no tiene cerradura. Solo se puede cerrar desde afuera. Esto
     no me gusta\u2026"
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead Voy a ver si hay algo en la habitaci\xF3n que pueda utilizar para cerrar
     la puerta."
   - "Encuentra un destornillador, un peque\xF1o martillo, tuercas... y lo que parece
     una cerradura. Parece que puede encajarse."
   - "<Mec\xE1nica de puzzle>"
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead \xA1Encaja a la perfecci\xF3n!"
   - Robert consigue arreglar la cerradura de la puerta.
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead \xA1Listo! No es mucho pero me ayudar\xE1 a calmarme, ahora que s\xE9
     que hay un m\xEDnimo de seguridad. Voy a pasar el rato y luego me ir\xE9 a dormir."
   - "Las horas pasan y Robert duerme profundamente, pero un par de horas despu\xE9s..."
-  - '                                                                        Robert
+  - '                                                                          Robert
     Olmstead ... Hm...'
-  - '                                                                        Robert
+  - '                                                                          Robert
     Olmstead ...'
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead \xBFQue es ese ruido?"
   - Se oyen pasos por el pasillo.
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead Parece que hay movimiento en el pasillo\u2026"
   - "De repente, se escucha un gru\xF1ido extra\xF1o."
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead \xBFQue...?"
   - Los ruidos aumentan y unos golpes fuertes hacen temblar la puerta.
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead \xA1Mierda, est\xE1n golpeando la puerta!"
   - Los golpes no parece que vayan a parar.
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead \xA1Tengo que salir de aqu\xED! Mi \xFAnica opci\xF3n es salir por la
     ventana, pero est\xE1 muy alto\u2026"
   - Un rugido nuevo se oye, y la puerta parece que vaya a caerse.
-  - "                                                                        Robert
+  - "                                                                          Robert
     Olmstead \xA1No tengo alternativa!"
   - "Vi\xE9ndose acorralado, Robert salta por la ventana. Adolorido, se levanta y
     comienza a correr."
