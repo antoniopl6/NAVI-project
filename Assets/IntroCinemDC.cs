@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class IntroCinemDC : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class IntroCinemDC : MonoBehaviour
     public GameObject cerrar; //boton para cerrar la escena
 
     private bool StartDialogue = true;
+    public int nextScene;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +44,15 @@ public class IntroCinemDC : MonoBehaviour
             }
 
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            DialogueText.text = "";
+            StartDialogue = true;
+            cuadroDialogo.SetActive(false);
+            //cerrar.SetActive(true);
+            SceneManager.LoadScene(nextScene);
+        }
+
     }
 
     void NextSentence()

@@ -44,6 +44,14 @@ public class FinalCinemDC : MonoBehaviour
             }
 
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            DialogueText.text = "";
+            StartDialogue = true;
+            cuadroDialogo.SetActive(false);
+            //cerrar.SetActive(true);
+            UnityEngine.Application.Quit();
+        }
     }
 
     void NextSentence()

@@ -43,6 +43,14 @@ public class PreFinalCinemDC : MonoBehaviour
             }
 
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            DialogueText.text = "";
+            StartDialogue = true;
+            cuadroDialogo.SetActive(false);
+            //cerrar.SetActive(true);
+            SceneManager.LoadScene(nextScene);
+        }
     }
 
     void NextSentence()
