@@ -2,22 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using static System.Net.Mime.MediaTypeNames;
+using UnityEngine.SceneManagement;
 
-public class FinalCinemDC : MonoBehaviour
+public class PreFinalCinemDC : MonoBehaviour
 {
     public TextMeshProUGUI DialogueText; //recuedro en el que se escribira el texto
     public AudioSource botonAudio; //efecto de sonido para el boton
-    public AudioSource monsterPackAudio; //efecto de sonido para muchos monstruos
-    public AudioSource monsterAudio; //efecto de sonido para un monstruo
+    public AudioSource hombreCorriendoAudio; //efecto de sonido
+    
     public string[] Sentences; //dialogos
     private int Index = 0; //indice para los dialogos
     public float DialogueSpeed; //velocidad a la que se escribira el dialogo
     public GameObject cuadroDialogo; //diseño de cuadro de dialogo
-    public GameObject wackground1; //wackground1
-    public GameObject wackground2; //wackground2
     public GameObject cerrar; //boton para cerrar la escena
 
+    public int nextScene;
     private bool StartDialogue = true;
     // Start is called before the first frame update
     void Start()
@@ -37,7 +36,7 @@ public class FinalCinemDC : MonoBehaviour
             else
             {
                 if (Index != 2)
-                { //momento en el que salen los monstruos y suena ahi el ruido
+                { //momento de sonido, entonces no quiero sonido de boton
                     botonAudio.Play();
                 }
                 NextSentence();
@@ -54,41 +53,21 @@ public class FinalCinemDC : MonoBehaviour
             DialogueText.text = "";
             StartCoroutine(WriteSentence());
 
-            if (Index == 0)
-            {
-                wackground1.SetActive(true);
-            }
-
             if (Index == 2)
-            { //momento en el que sale un monstruo
-                monsterAudio.Play();
+            { //momento en el que corre
+                hombreCorriendoAudio.Play();
             }
 
-            if(Index == 4)
-            { //momento en el que salen los monstruos y suena ahi el ruido
-                wackground1.SetActive(false);
-                wackground2.SetActive(true);
-            }
-
-            if (Index == 5)
-            { //momento en el que salen los monstruos y suena ahi el ruido
-                monsterPackAudio.Play();
-            }
-
-            if (Index == 9)
-            {
-                wackground2.SetActive(false);
-            }
 
         }
         else
         {
-            monsterPackAudio.Stop();
             DialogueText.text = "";
             StartDialogue = true;
             cuadroDialogo.SetActive(false);
             //cerrar.SetActive(true);
-            UnityEngine.Application.Quit();
+            //StartCoroutine(waiter());
+            SceneManager.LoadScene(nextScene);
         }
 
     }

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 public class HotelCinemDC : MonoBehaviour
 {
 
@@ -35,7 +37,10 @@ public class HotelCinemDC : MonoBehaviour
     //personaje
     public GameObject mcFront;
     public GameObject mcBack;
+    public GameObject mcFront2;
+    public GameObject mcBack2;
 
+    public int nextScene;
     private bool StartDialogue = true;
 
 
@@ -104,7 +109,7 @@ public class HotelCinemDC : MonoBehaviour
 
                 if (Index == 14)
                 { //
-                    mcFront.SetActive(true);
+                    mcFront2.SetActive(true);
                 }
 
                 if (Index == 18)
@@ -116,13 +121,14 @@ public class HotelCinemDC : MonoBehaviour
 
                 if (Index == 20)
                 { //
-                    mcFront.SetActive(false);
-                    mcBack.SetActive(true);
+                    mcFront2.SetActive(false);
+                    mcBack2.SetActive(true);
                 }
 
                 if (Index == 23)
                 { //muestra en negro
                     wackgroundHabitacionNoche.SetActive(false);
+                    mcBack2.SetActive(false);
                 }
 
                 NextSentence();
@@ -193,7 +199,9 @@ public class HotelCinemDC : MonoBehaviour
             DialogueText.text = "";
             StartDialogue = true;
             cuadroDialogo.SetActive(false);
-            cerrar.SetActive(true);
+            //cerrar.SetActive(true);
+            //StartCoroutine(waiter());
+            SceneManager.LoadScene(nextScene);
         }
 
     }
@@ -214,9 +222,20 @@ public class HotelCinemDC : MonoBehaviour
 
     IEnumerator waiter()
     {
+        //Rotate 90 deg
+        transform.Rotate(new Vector3(90, 0, 0), Space.World);
 
-        //Wait for x seconds
-        yield return new WaitForSeconds(2);
+        //Wait for 4 seconds
+        yield return new WaitForSecondsRealtime(4);
+
+        //Rotate 40 deg
+        transform.Rotate(new Vector3(40, 0, 0), Space.World);
+
+        //Wait for 2 seconds
+        yield return new WaitForSecondsRealtime(2);
+
+        //Rotate 20 deg
+        transform.Rotate(new Vector3(20, 0, 0), Space.World);
 
     }
 }

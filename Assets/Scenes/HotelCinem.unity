@@ -153,7 +153,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &13664485
 AudioSource:
@@ -281,7 +281,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &16583136
 AudioSource:
@@ -544,7 +544,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &163626255
 AudioSource:
@@ -674,7 +674,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -882,7 +882,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 538
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -906,7 +906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346084743}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 959, y: 524, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -978,7 +978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3679245, g: 0.49056602, b: 0.3774861, a: 1}
+  m_Color: {r: 0.6, g: 0.7254902, b: 0.60784316, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1211,7 +1211,7 @@ RectTransform:
   m_Children:
   - {fileID: 60199569}
   m_Father: {fileID: 701595468}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1337,6 +1337,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555740898}
   m_CullTransparentMesh: 1
+--- !u!1 &689206553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689206554}
+  - component: {fileID: 689206557}
+  - component: {fileID: 689206556}
+  - component: {fileID: 689206555}
+  m_Layer: 5
+  m_Name: MCFront2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &689206554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689206553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 701595468}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 18, y: -217.4692}
+  m_SizeDelta: {x: -940.221, y: 129.7716}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &689206555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689206553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acbaca770a2414f4b8902a61aca41910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSoundEffect: {fileID: 775845943}
+--- !u!114 &689206556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689206553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.23896407, g: 0.2830189, b: 0.24171749, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7988476344defee4c9f5aac71465ce3d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &689206557
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689206553}
+  m_CullTransparentMesh: 1
 --- !u!1 &701595463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1399,7 +1489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1450,8 +1540,10 @@ RectTransform:
   - {fileID: 1395527059}
   - {fileID: 1304144766}
   - {fileID: 363220357}
+  - {fileID: 689206554}
+  - {fileID: 1673712434}
   - {fileID: 228100670}
-  - {fileID: 984452587}
+  - {fileID: 1079211102}
   - {fileID: 555740899}
   - {fileID: 775845942}
   - {fileID: 892013715}
@@ -1504,7 +1596,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &775845943
 AudioSource:
@@ -1992,7 +2084,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &892013716
 AudioSource:
@@ -2218,7 +2310,7 @@ Transform:
   m_Father: {fileID: 1301331349}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &984452586
+--- !u!1 &1079211101
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2226,9 +2318,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 984452587}
-  - component: {fileID: 984452589}
-  - component: {fileID: 984452588}
+  - component: {fileID: 1079211102}
+  - component: {fileID: 1079211104}
+  - component: {fileID: 1079211103}
   m_Layer: 5
   m_Name: DialogueText
   m_TagString: Untagged
@@ -2236,33 +2328,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &984452587
+--- !u!224 &1079211102
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984452586}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1079211101}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -109, y: -204}
+  m_AnchoredPosition: {x: -115, y: -174}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &984452588
+--- !u!114 &1079211103
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984452586}
+  m_GameObject: {fileID: 1079211101}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -2339,19 +2431,19 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -67.15631, y: -11.567474, z: -315.6062, w: -12.215424}
+  m_margin: {x: -5.2514114, y: 7.6373816, z: -253.15948, w: -11.292355}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &984452589
+--- !u!222 &1079211104
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984452586}
+  m_GameObject: {fileID: 1079211101}
   m_CullTransparentMesh: 1
 --- !u!1 &1164057002
 GameObject:
@@ -2383,7 +2475,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1164057004
 AudioSource:
@@ -2903,7 +2995,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3126,7 +3218,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 21
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3259,7 +3351,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1434976036
 AudioSource:
@@ -3401,7 +3493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff377c22f85e2f4ea32fdb13a2c3511, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogueText: {fileID: 984452588}
+  DialogueText: {fileID: 1079211103}
   botonSound: {fileID: 775845943}
   escenaTranquila: {fileID: 1493433006}
   escenaNoche: {fileID: 1396396524}
@@ -3418,36 +3510,48 @@ MonoBehaviour:
   Sentences:
   - "Nuestro protagonista entra por fin en la habitaci\xF3n de hotel y la observa
     atentamente."
-  - "Mr. Balaclava: Bueno... No est\xE1 tan mal... \xBFEh?"
-  - "Mr. Balaclava: Pero si no tiene cerradura. Solo se puede cerrar desde afuera.
-    Esto no me gusta\u2026"
-  - "Mr. Balaclava: Voy a ver si hay algo en la habitaci\xF3n que pueda utilizar
-    para cerrar la puerta."
+  - "                                                                        Robert
+    Olmstead Bueno... No est\xE1 tan mal... \xBFEh?"
+  - "                                                                        Robert
+    Olmstead Pero si no tiene cerradura. Solo se puede cerrar desde afuera. Esto
+    no me gusta\u2026"
+  - "                                                                        Robert
+    Olmstead Voy a ver si hay algo en la habitaci\xF3n que pueda utilizar para cerrar
+    la puerta."
   - "Encuentra un destornillador, un peque\xF1o martillo, tuercas... y lo que parece
     una cerradura. Parece que puede encajarse."
   - "<Mec\xE1nica de puzzle>"
-  - "Mr. Balaclava: \xA1Encaja a la perfecci\xF3n!"
-  - Mr. Balaclava consigue arreglar la cerradura de la puerta.
-  - "Mr. Balaclava: \xA1Listo! No es mucho pero me ayudar\xE1 a calmarme, ahora que
-    s\xE9 que hay un m\xEDnimo de seguridad. Voy a pasar el rato y luego me ir\xE9
-    a dormir."
-  - "Las horas pasan y Mr. Balaclava duerme profundamente, pero un par de horas despu\xE9s..."
-  - 'Mr. Balaclava: ... Hm...'
-  - 'Mr. Balaclava: ...'
-  - "Mr. Balaclava: \xBFQue es ese ruido?"
+  - "                                                                        Robert
+    Olmstead \xA1Encaja a la perfecci\xF3n!"
+  - Robert consigue arreglar la cerradura de la puerta.
+  - "                                                                        Robert
+    Olmstead \xA1Listo! No es mucho pero me ayudar\xE1 a calmarme, ahora que s\xE9
+    que hay un m\xEDnimo de seguridad. Voy a pasar el rato y luego me ir\xE9 a dormir."
+  - "Las horas pasan y Robert duerme profundamente, pero un par de horas despu\xE9s..."
+  - '                                                                        Robert
+    Olmstead ... Hm...'
+  - '                                                                        Robert
+    Olmstead ...'
+  - "                                                                        Robert
+    Olmstead \xBFQue es ese ruido?"
   - Se oyen pasos por el pasillo.
-  - "Mr. Balaclava: Parece que hay movimiento en el pasillo\u2026"
+  - "                                                                        Robert
+    Olmstead Parece que hay movimiento en el pasillo\u2026"
   - "De repente, se escucha un gru\xF1ido extra\xF1o."
-  - "Mr. Balaclava: \xBFQue...?"
+  - "                                                                        Robert
+    Olmstead \xBFQue...?"
   - Los ruidos aumentan y unos golpes fuertes hacen temblar la puerta.
-  - "Mr. Balaclava: \xA1Mierda, est\xE1n golpeando la puerta!"
+  - "                                                                        Robert
+    Olmstead \xA1Mierda, est\xE1n golpeando la puerta!"
   - Los golpes no parece que vayan a parar.
-  - "Mr. Balaclava: \xA1Tengo que salir de aqu\xED! Mi \xFAnica opci\xF3n es salir
-    por la ventana, pero est\xE1 muy alto\u2026"
+  - "                                                                        Robert
+    Olmstead \xA1Tengo que salir de aqu\xED! Mi \xFAnica opci\xF3n es salir por la
+    ventana, pero est\xE1 muy alto\u2026"
   - Un rugido nuevo se oye, y la puerta parece que vaya a caerse.
-  - "Mr. Balaclava: \xA1No tengo alternativa!"
-  - "Vi\xE9ndose acorralado, Mr. Balaclava salta por la ventana. Adolorido, se levanta
-    y comienza a correr."
+  - "                                                                        Robert
+    Olmstead \xA1No tengo alternativa!"
+  - "Vi\xE9ndose acorralado, Robert salta por la ventana. Adolorido, se levanta y
+    comienza a correr."
   DialogueSpeed: 0.009
   cuadroDialogo: {fileID: 228100669}
   cerrar: {fileID: 555740898}
@@ -3457,6 +3561,9 @@ MonoBehaviour:
   wackgroundPuzzle: {fileID: 1238147415}
   mcFront: {fileID: 1304144765}
   mcBack: {fileID: 363220356}
+  mcFront2: {fileID: 689206553}
+  mcBack2: {fileID: 1673712433}
+  nextScene: 16
 --- !u!1 &1493433005
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,7 +3690,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 20
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1576033547
 GameObject:
@@ -3615,7 +3722,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1576033549
 AudioSource:
@@ -3773,6 +3880,96 @@ MonoBehaviour:
   DialogueSpeed: 0.02
   cuadroDialogo: {fileID: 803139579}
   cerrar: {fileID: 1724606818}
+--- !u!1 &1673712433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1673712434}
+  - component: {fileID: 1673712437}
+  - component: {fileID: 1673712436}
+  - component: {fileID: 1673712435}
+  m_Layer: 5
+  m_Name: MCBack2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1673712434
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673712433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 701595468}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 18, y: -217.4692}
+  m_SizeDelta: {x: -940.221, y: 129.7716}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1673712435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673712433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acbaca770a2414f4b8902a61aca41910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSoundEffect: {fileID: 775845943}
+--- !u!114 &1673712436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673712433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.23921569, g: 0.28235295, b: 0.24313726, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b8adb0e83bd57474495ce0ff47bbf909, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1673712437
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673712433}
+  m_CullTransparentMesh: 1
 --- !u!1 &1724606818
 GameObject:
   m_ObjectHideFlags: 0
@@ -4065,7 +4262,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 19
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1789199136
 AudioSource:
@@ -4193,7 +4390,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 701595468}
-  m_RootOrder: 22
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

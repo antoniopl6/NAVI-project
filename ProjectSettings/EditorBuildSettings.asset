@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GilmanHouse2.unity
     guid: fc3d97809b9854f4782c5c178b2cb6a7
+  - enabled: 1
+    path: Assets/Scenes/PreFinalCnem.unity
+    guid: 53f22e218dd4f6140a8f32ad2b96cd65
   m_configObjects: {}

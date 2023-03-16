@@ -1107,7 +1107,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 538.9117
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1131,7 +1131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001211698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 959, y: 524, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1350,14 +1350,17 @@ MonoBehaviour:
     sol se asoma por el horizonte, all\xE1 donde la vista se pierde entre las olas
     del mar. "
   - "Parece que ser\xE1 un d\xEDa soleado y con buen tiempo. "
-  - "Interfono: A 20 minutos de Innsmouth, \xFAltima parada."
-  - 'Mr. Balaclava: Ya queda menos para llegar. Y pensar que esta localidad no sale
-    ni en los mapas.'
-  - "Mr. Balaclava: Si no hubiera sido por el empleado de la estaci\xF3n de trenes,
-    en Newburyport, nunca habr\xEDa conocido la existencia de este pueblo envuelto
-    en misterio."
-  - 'Mr. Balaclava: Ya que voy hacia Arkham city, y aprovechando la oportunidad para
-    hacer turismo, no es mala idea dar una vuelta por Innsmouth durante unas horas. '
+  - "Interfono                                                                                 
+    A 20 minutos de Innsmouth, \xFAltima parada."
+  - '                                                                          Robert
+    Olmstead Ya queda menos para llegar. Y pensar que esta localidad no sale ni en
+    los mapas.'
+  - "                                                                          Robert
+    Olmstead Si no hubiera sido por el empleado de la estaci\xF3n de trenes, en Newburyport,
+    nunca habr\xEDa conocido la existencia de este pueblo envuelto en misterio."
+  - '                                                                          Robert
+    Olmstead Ya que voy hacia Arkham city, y aprovechando la oportunidad para hacer
+    turismo, no es mala idea dar una vuelta por Innsmouth durante unas horas. '
   DialogueSpeed: 0.009
   cuadroDialogo: {fileID: 585781696}
   cerrar: {fileID: 1102287304}
@@ -1410,7 +1413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2488,7 +2491,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -78.169525, y: 16.752136, z: -310.8863, w: -29.521866}
+  m_margin: {x: -5.2514114, y: 7.6373816, z: -253.15948, w: -11.292355}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2519,6 +2522,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -179}
+  m_AnchoredPosition: {x: -115, y: -174}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
