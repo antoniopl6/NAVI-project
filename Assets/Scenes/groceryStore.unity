@@ -2434,8 +2434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - "Buenos d\xEDas. \xBFEres el dependiente de la tienda?"
-    - "Buenos d\xEDas. S\xED, aqu\xED soy el \xFAnico empleado. Ahora estoy en mi
+    - "Buenos d\xEDas. \xBFEres la dependienta de la tienda?"
+    - "Buenos d\xEDas. S\xED, aqu\xED soy el \xFAnica empleada. Ahora estoy en mi
       hora de descanso pero puedo ayudarle en lo que necesite. A juzgar por sus rasgos,
       usted no es de por aqu\xED, \xBFverdad?"
     - "No acabo de llegar al pueblo para hacer una visita tur\xEDstica. \xBFTu eres
